@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Body mass index calculation"</string>
+    <string name="bay">Mr.</string>
+    <string name="bayan">Mss.</string>
+    <string name="boy_tv">Size</string>
+    <string name="cinsiyet">Gender</string>
+    <string name="doktora">" Treatment Condition"</string>
+    <string name="durum_tv">Status</string>
+    <string name="fazla_kilolu">" You are overweight"</string>
+    <string name="ideal">" Ideal weight"</string>
+    <string name="ideal_kilo_tv">Ideal weight</string>
+    <string name="kilo_tv">Kg</string>
+    <string name="normalden_fazla">" Average"</string>
+    <string name="obez">Obez</string>
+    <string name="zayif">Too weak</string>
+</resources>

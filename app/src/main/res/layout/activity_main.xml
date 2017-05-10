@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="2"
+    android:layout_row="8"
+    android:id="@+id/gravlayout"
+    android:padding="@dimen/paddign_tv"
+    tools:context="com.example.a.vucutkitleindex.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_column="0"
+        android:layout_row="0"
+        android:gravity="right|center_vertical"
+        android:text="@string/boy_tv" />
+
+
+    <EditText
+        android:id="@+id/boy_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:digits="0123456789"
+        android:gravity="fill_horizontal"
+        android:inputType="number"
+        android:maxLength="3" >
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView
+        android:id="@+id/boy_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="fill_horizontal"
+        android:padding="@dimen/paddign_tv" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:gravity="right|center_vertical"
+        android:text="@string/kilo_tv" />
+
+    <SeekBar
+        android:progress="20"
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"/>
+
+    <TextView
+        android:id="@+id/kilo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="50 kg" />
+
+    <TextView
+        android:gravity="right|center_vertical"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cinsiyet" />
+
+    <RadioGroup
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/radioGrup"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioBayan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bayan" />
+
+        <RadioButton
+            android:id="@+id/radioBay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/bay" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:text="@string/ideal_kilo_tv" />
+
+    <TextView
+        android:id="@+id/ideal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="right|center_vertical" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:text="@string/durum_tv" />
+
+    <TextView
+        android:id="@+id/durum_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="right|center_vertical" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</GridLayout>
